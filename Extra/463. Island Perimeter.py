@@ -21,6 +21,7 @@ class Solution(object):
         
 #         check the number of land and x4 for overall perimeter
 #           minus those that have land on next column, row
+# O(n*m) time, O(1) space
 
 sol = Solution()
 print(sol.islandPerimeter([[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]))
